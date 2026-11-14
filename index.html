@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portafolio Jesús Morán</title>
+<meta name="description" content="Portafolio de Jesús Matías Morán Furrianca, estudiante de Ingeniería Civil en Informática y Telecomunicaciones (UDP).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<header class="bar">
+  <div class="shell bar-in">
+    <a class="brand" href="#inicio" aria-label="Jesús Morán"><span class="mark">JM</span><span class="brand-name">Jesús Morán</span></a>
+    <nav class="nav" data-i18n-aria="aria.nav" aria-label="Navegación principal">
+      <a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a>
+      <a href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+      <a href="#docencia" data-i18n="nav.teaching">Docencia</a>
+      <a href="#habilidades" data-i18n="nav.skills">Habilidades</a>
+      <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="tools">
+      <button class="icon-btn" id="langBtn" type="button" data-i18n-aria="aria.lang" aria-label="Cambiar a inglés">EN</button>
+      <button class="icon-btn theme-btn" id="themeBtn" type="button" data-mode="light" data-i18n-aria="aria.theme" aria-label="Cambiar tema">
+        <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="shell">
+    <section class="hero" id="inicio">
+      <p class="status"><span class="dot" aria-hidden="true"></span><span data-i18n="hero.status">Busco práctica profesional</span></p>
+      <h1><span class="line">Jesús Matías</span><span class="line">Morán Furrianca</span></h1>
+      <div class="panel hero-panel">
+      <p class="role" data-i18n="hero.role">Estudiante de Ingeniería Civil en Informática y Telecomunicaciones</p>
+      <p class="lead" data-i18n="hero.lead">Estudiante de tercer año en la Universidad Diego Portales. Trabajo con sistemas embebidos, telecomunicaciones y desarrollo de software, y busco una práctica profesional para aplicar lo que sé en proyectos reales.</p>
+      </div>
+      <div class="cta">
+        <a class="btn primary" href="#proyectos"><span data-i18n="hero.cta.projects">Ver proyectos</span><span class="arr" aria-hidden="true">→</span></a>
+        <a class="btn" href="#contacto"><span data-i18n="hero.cta.contact">Escríbeme</span><span class="arr" aria-hidden="true">→</span></a>
+        <a class="btn ext" href="certificadosydocs/CV_Jesus_Moran.pdf" target="_blank" rel="noopener"><span data-i18n="hero.cv">Ver CV</span><span class="arr" aria-hidden="true">↗</span></a>
+        <a class="btn ext" href="https://github.com/JesusMoranF" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span class="arr" aria-hidden="true">↗</span></a>
+        <a class="btn ext" href="https://www.linkedin.com/in/jesus-matias-ignacio-mor%C3%A1n-furrianca-595b4439a/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><span class="arr" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="sec" id="sobre-mi">
+      <div class="sec-head"><p class="eyebrow" data-i18n="about.eyebrow">~/sobre-mi</p><h2 data-i18n="about.title">Sobre mí</h2></div>
+      <div class="about-grid">
+        <div class="prose panel">
+          <p data-i18n="about.p1">Estudio Ingeniería Civil en Informática y Telecomunicaciones en la Universidad Diego Portales. Me interesa el punto donde se encuentran el hardware, las comunicaciones y el software: sensores, redes y las aplicaciones que usan sus datos.</p>
+          <p data-i18n="about.p2">Además de estudiar, apoyo a otros estudiantes como ayudante de Bases de Datos y de Mecánica, y como corrector de Programación Avanzada.</p>
+        </div>
+        <article class="card col">
+          <h3 data-i18n="edu.title">Formación</h3>
+          <p class="school">Universidad Diego Portales</p>
+          <p data-i18n="edu.degree">Ingeniería Civil en Informática y Telecomunicaciones</p>
+          <p class="mono muted" data-i18n="edu.period">2024 – presente</p>
+          <div class="gpa"><span class="label" data-i18n="facts.gpa.l">Promedio acumulado</span><span class="gpa-v" data-i18n="facts.gpa.v">6,0 / 7,0</span></div>
+          <p data-i18n="edu.line">Sexto semestre. Todas las asignaturas aprobadas hasta el quinto semestre.</p>
+          <p class="label" data-i18n="edu.done">Cursos aprobados relevantes</p>
+          <ul class="chips">
+            <li data-i18n="c.prog">Programación Avanzada</li>
+            <li data-i18n="c.eda">Estructura de Datos y Algoritmos</li>
+            <li data-i18n="c.bd">Bases de Datos</li>
+            <li data-i18n="c.bda">Bases de Datos Avanzadas</li>
+            <li data-i18n="c.redes">Redes de Datos</li>
+            <li data-i18n="c.taller">Taller de Redes y Servicios</li>
+            <li data-i18n="c.web">Desarrollo Web y Móvil</li>
+            <li data-i18n="c.elec">Electrónica y Electrotecnia</li>
+            <li data-i18n="c.opt">Optimización</li>
+            <li data-i18n="c.tics">Proyecto en TICs I</li>
+          </ul>
+          <p class="label" data-i18n="edu.now">Cursando este semestre</p>
+          <ul class="chips">
+            <li data-i18n="c.sys">Señales y Sistemas</li>
+            <li data-i18n="c.arq">Arquitectura y Organización de Computadores</li>
+            <li data-i18n="c.so">Sistemas Operativos</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="sec" id="proyectos">
+      <div class="sec-head"><p class="eyebrow" data-i18n="proj.eyebrow">~/proyectos</p><h2 data-i18n="proj.title">Proyectos</h2></div>
+      <div class="proj-stack">
+        <article class="card col feature">
+          <div class="feat-top">
+            <span class="meta" data-i18n="bh.meta">Proyectos en TICs I · Julio 2026</span>
+            <span class="badge"><span aria-hidden="true">★</span><span data-i18n="bh.badge">2.º lugar · Feria de Proyectos UDP</span></span>
+          </div>
+          <h3 class="proj-name">BackHealth</h3>
+          <p class="proj-sub" data-i18n="bh.sub">Monitoreo ergonómico de mochilas escolares</p>
+          <p data-i18n="bh.desc">Dispositivo que va dentro de la mochila y mide el peso que carga el estudiante y la inclinación de su espalda. La aplicación avisa al estudiante cuando se superan los límites seguros, como el 15 % de su peso corporal, y el apoderado puede revisar el historial de sesiones.</p>
+          <ul class="bul">
+            <li><strong data-i18n="bh.b1h">Hardware</strong> <span data-i18n="bh.b1">ESP32 con dos celdas de carga y un conversor HX711 para medir el peso, y un sensor inercial MPU6050 para la postura, con un filtro de Kalman por eje que reduce el ruido del caminar.</span></li>
+            <li><strong data-i18n="bh.b2h">Comunicación y aplicación</strong> <span data-i18n="bh.b2">Protocolo propio sobre Bluetooth Low Energy a unos 5 Hz y una aplicación móvil en Flutter con panel en tiempo real, notificaciones con vibración e historial de sesiones en Firebase Firestore.</span></li>
+            <li><strong data-i18n="bh.b3h">Informes</strong> <span data-i18n="bh.b3">Posibilidad de crear informes kinesiológicos y médicos a partir del historial de sesiones de peso y postura.</span></li>
+          </ul>
+          <div class="flow-wrap">
+            <div class="flow" role="group" data-i18n-aria="fl.aria" aria-label="Flujo de datos: sensores, ESP32, aplicación Flutter y Firebase">
+              <div class="node"><p class="node-l" data-i18n="fl.n1l">Sensores</p><p class="node-n">HX711 + MPU6050</p><p class="node-d" data-i18n="fl.n1d">2 celdas de carga e IMU</p></div>
+              <div class="link"><span data-i18n="fl.k1">lectura</span><div class="wire"></div></div>
+              <div class="node"><p class="node-l" data-i18n="fl.n2l">Firmware</p><p class="node-n">ESP32</p><p class="node-d" data-i18n="fl.n2d">C++ y filtro de Kalman</p></div>
+              <div class="link"><span>BLE · ~5 Hz</span><div class="wire"></div></div>
+              <div class="node"><p class="node-l" data-i18n="fl.n3l">Aplicación</p><p class="node-n">Flutter</p><p class="node-d" data-i18n="fl.n3d">Panel, alertas y vibración</p></div>
+              <div class="link"><span data-i18n="fl.k3">al cerrar sesión</span><div class="wire"></div></div>
+              <div class="node"><p class="node-l" data-i18n="fl.n4l">Nube</p><p class="node-n">Firestore</p><p class="node-d" data-i18n="fl.n4d">Historial de sesiones</p></div>
+            </div>
+          </div>
+          <ul class="chips">
+            <li>ESP32</li><li>C++</li><li>BLE</li><li>Flutter</li><li>Dart</li><li>Firebase Firestore</li><li>HX711</li><li>MPU6050</li>
+          </ul>
+        </article>
+
+        <div class="proj-row">
+          <article class="card col">
+            <h3 class="proj-name" style="font-size:1.5rem">PrimeBetV2</h3>
+            <p class="proj-sub" data-i18n="pb.sub">Aplicación web full-stack en JavaScript</p>
+            <p data-i18n="pb.desc">Proyecto web con el código separado en Backend, Frontend y archivos públicos, desarrollado con más de 100 commits en GitHub.</p>
+            <ul class="chips"><li>JavaScript</li><li>Git</li></ul>
+            <a class="go" href="https://github.com/JesusMoranF/PrimeBetV2" target="_blank" rel="noopener noreferrer"><span data-i18n="pb.link">Ver repositorio</span><span class="arr" aria-hidden="true">↗</span></a>
+          </article>
+          <article class="card col">
+            <h3 class="proj-name" style="font-size:1.5rem" data-i18n="more.title">Más en GitHub</h3>
+            <p data-i18n="more.desc">Revisa el resto de mis repositorios en GitHub.</p>
+            <a class="go" href="https://github.com/JesusMoranF?tab=repositories" target="_blank" rel="noopener noreferrer"><span data-i18n="more.link">Abrir perfil</span><span class="arr" aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="docencia">
+      <div class="sec-head"><p class="eyebrow" data-i18n="teach.eyebrow">~/experiencia</p><h2 data-i18n="teach.title">Experiencia relevante</h2></div>
+      <div class="rows">
+        <article class="row">
+          <div><h3 data-i18n="role.assist">Ayudante de cátedra</h3><p class="acc" data-i18n="c.bd">Bases de Datos</p></div>
+          <div><p class="org">Universidad Diego Portales</p><p data-i18n="t1.desc">Apoyo a estudiantes con consultas y ejercicios de modelamiento relacional y SQL.</p></div>
+        </article>
+        <article class="row">
+          <div><h3 data-i18n="role.assist">Ayudante de cátedra</h3><p class="acc" data-i18n="c.mech">Mecánica</p></div>
+          <div><p class="org">Universidad Diego Portales</p><p data-i18n="t2.desc">Apoyo a estudiantes en la resolución de problemas y en los conceptos del curso.</p></div>
+        </article>
+        <article class="row">
+          <div><h3 data-i18n="role.grader">Corrector</h3><p class="acc" data-i18n="c.prog">Programación Avanzada</p></div>
+          <div><p class="org">Universidad Diego Portales</p><p data-i18n="t3.desc">Revisión y evaluación de tareas y pruebas de programación según las pautas de corrección.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="sec" id="habilidades">
+      <div class="sec-head"><p class="eyebrow" data-i18n="skills.eyebrow">~/habilidades</p><h2 data-i18n="skills.title">Habilidades</h2></div>
+      <div>
+        <div class="skill-grid">
+          <div class="skill"><h3 data-i18n="sk.lang">Lenguajes</h3><ul class="chips"><li>C</li><li>C++</li><li>Java</li><li>Python</li><li>JavaScript</li><li>Dart</li><li>SQL (PostgreSQL)</li><li>HTML / CSS</li></ul></div>
+          <div class="skill"><h3 data-i18n="sk.fw">Frameworks y plataformas</h3><ul class="chips"><li>Flutter</li><li>Node.js</li><li>Firebase</li><li>AWS</li></ul></div>
+          <div class="skill"><h3 data-i18n="sk.emb">Embebidos y redes</h3><ul class="chips"><li>ESP32</li><li>BLE</li><li>MPU6050</li><li>HX711</li><li data-i18n="sk.net">Redes de datos (fundamentos)</li></ul></div>
+          <div class="skill"><h3 data-i18n="sk.tools">Herramientas</h3><ul class="chips"><li>Git</li><li>GitHub</li><li>Docker</li><li>VS Code</li><li>Linux</li></ul></div>
+        </div>
+        <h3 class="sub-title" data-i18n="lg.title">Idiomas</h3>
+        <div class="rows">
+          <article class="row">
+            <div><h3 data-i18n="lg.en.l">Inglés</h3></div>
+            <div><p data-i18n="lg.en.v">B2 · certificado EnglishScore Core Skills del British Council, junio 2026</p></div>
+          </article>
+          <article class="row">
+            <div><h3 data-i18n="lg.es.l">Español</h3></div>
+            <div><p data-i18n="lg.es.v">Nativo</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="contacto">
+      <div class="sec-head"><p class="eyebrow" data-i18n="contact.eyebrow">~/contacto</p><h2 data-i18n="contact.title">Contacto</h2></div>
+      <div class="contact">
+        <p class="lead panel" data-i18n="contact.lead">Busco una práctica profesional en telecomunicaciones o desarrollo de software. Si tienes una oportunidad o quieres ver más de mi trabajo, escríbeme.</p>
+        <div class="mail">
+          <a class="mail-a" id="email" href="mailto:jesus.moran@mail.udp.cl">jesus.moran@mail.udp.cl</a>
+          <button class="btn small" id="copyBtn" type="button" data-i18n-aria="contact.copyaria" aria-label="Copiar correo"><span id="copyLbl" data-i18n="contact.copy">Copiar</span></button>
+        </div>
+        <div class="cta">
+          <a class="btn primary ext" href="certificadosydocs/CV_Jesus_Moran.pdf" target="_blank" rel="noopener"><span data-i18n="contact.cv">Ver CV</span><span class="arr" aria-hidden="true">↗</span></a>
+          <a class="btn" href="certificadosydocs/CV_Jesus_Moran.pdf" download><span data-i18n="contact.cvdl">Descargar PDF</span><span class="arr" aria-hidden="true">↓</span></a>
+          <a class="btn ext" href="https://github.com/JesusMoranF" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span class="arr" aria-hidden="true">↗</span></a>
+          <a class="btn ext" href="https://www.linkedin.com/in/jesus-matias-ignacio-mor%C3%A1n-furrianca-595b4439a/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><span class="arr" aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="shell">
+    <div class="foot-in panel">
+      <span>© 2026 Jesús Matías Morán Furrianca</span>
+    </div>
+  </div>
+</footer>
+
+<script src="i18n/es.js"></script>
+<script src="i18n/en.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
