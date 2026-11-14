@@ -1,7 +1,7 @@
 const i18n_en = {
   "nav.about": "About",
   "nav.projects": "Projects",
-  "nav.teaching": "Teaching",
+  "nav.teaching": "Experience",
   "nav.skills": "Skills",
   "nav.contact": "Contact",
   "aria.nav": "Main navigation",
@@ -16,7 +16,7 @@ const i18n_en = {
   "facts.gpa.v": "6.0 / 7.0",
   "about.eyebrow": "~/about",
   "about.title": "About me",
-  "about.p1": "I study Civil Engineering in Computer Science and Telecommunications at Universidad Diego Portales. I am interested in the point where hardware, communications and software meet: sensors, networks and the applications that use their data.",
+  "about.p1": "I study Civil Engineering in Computer Science and Telecommunications at Universidad Diego Portales. I am interested in the point where hardware, communications and software meet, sensors, networks and the applications that use their data.",
   "about.p2": "Besides studying, I support other students as a teaching assistant for Databases and Mechanics, and as a grader for Advanced Programming.",
   "edu.title": "Education",
   "edu.degree": "Civil Engineering in Computer Science and Telecommunications",
