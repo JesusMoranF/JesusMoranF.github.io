@@ -6,5 +6,4 @@ Portafolio personal de Jesús Matías Morán Furrianca.
 - `style.css` — estilos (tema claro/oscuro)
 - `main.js` — fondo interactivo, tema, idioma y comportamiento
 - `i18n/` — traducciones en español e inglés
-- `Imagenes/` — imágenes del sitio
-- `certificadosydocs/` — CV y documentos
+- `cv/` — CV y documentos
