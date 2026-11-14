@@ -62,7 +62,7 @@ const i18n_en = {
   "fl.k1": "readout",
   "fl.k3": "on session end",
   "pb.sub": "Full-stack web application in JavaScript",
-  "pb.desc": "Web project with the code split into Backend, Frontend and public files, built over more than 100 commits on GitHub.",
+  "pb.desc": "Web project with the code split into Backend and Frontend, REST API implementation for component communication, and cloud deployment on AWS EC2.",
   "pb.link": "View repository",
   "more.title": "More on GitHub",
   "more.desc": "Browse the rest of my repositories on GitHub.",
