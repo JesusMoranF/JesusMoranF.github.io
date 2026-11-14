@@ -62,7 +62,7 @@ const i18n_es = {
   "fl.k1": "lectura",
   "fl.k3": "al cerrar sesión",
   "pb.sub": "Aplicación web full-stack en JavaScript",
-  "pb.desc": "Proyecto web con el código separado en Backend, Frontend e implementación de APIs REST para la comunicación de componentes y despliegue en la nube mediante AWS EC2",
+  "pb.desc": "Proyecto web con el código separado en Backend, Frontend e implementación de APIs REST para la comunicación de componentes y despliegue en la nube mediante AWS EC2.",
   "pb.link": "Ver repositorio",
   "more.title": "Más en GitHub",
   "more.desc": "Revisa el resto de mis repositorios en GitHub.",
